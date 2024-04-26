@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "multer": "^1.4.4",
+    "node": "^21.6.2",
+    "nodemailer": "^6.9.10",
+    "nodemon": "^3.1.0"
+  },
+  "name": "yj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanDeul-Kim/yj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HanDeul-Kim/yj/issues"
+  },
+  "homepage": "https://github.com/HanDeul-Kim/yj#readme",
+  "description": ""
+}

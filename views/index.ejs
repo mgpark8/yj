@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <link rel="stylesheet" href="/assets/lib/swiper.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/media.css">
+    <title>YJ INNOVATION</title>
+</head>
+
+<body>
+    <!-- header -->
+    <%- include('header.ejs') %>
+    <main id="main">
+        <section class="video_banner">
+            <div class="banner main">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <video class="loaded" muted playsinline autoplay>
+                                <source src="/assets/img/main06.mp4" type="video/mp4">
+                            </video>
+                            <div class="content">
+                                <h1 class="tit">Maximize Your BUSINESS</h1>
+                                <p class="sub-tit">YJ Innovation은 리테일 유통업의 성공을 위한 <br>해박한 지식과 경험을 제공합니다.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <video muted playsinline autoplay>
+                                <source src="/assets/img/main04.mp4" type="video/mp4">
+                            </video>
+                            <div class="content">
+                                <h1 class="tit">Retail Solution Expert</h1>
+                                <p class="sub-tit">풍부한 Retail Solution 개발실적과 운영경험과 <br>업무 이해력으로 고객에게 신뢰를 제공하는 Retail Solution 전문가 조직</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <video muted playsinline autoplay>
+                                <source src="/assets/img/main05.mp4" type="video/mp4">
+                            </video>
+                            <div class="content">
+                                <h1 class="tit">IT Solution Provider</h1>
+                                <p class="sub-tit">다양하고 복잡한 리테일 솔루션 (위탁/사입, O2O, e_Com) <br>구축을 위한 해박한 지식과 구축 경험을 제공합니다.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="sub-nav">
+                    <a href="javascript:void(0);" class="text-wrap">
+                        <span class="scroll-down">
+                            <img src="/assets/img/scroll-down.png" alt="">
+                        </span>
+                    </a>
+
+                    <a href="/contact" class="text-wrap">
+                        <span class="go-contact">
+                            <img src="/assets/img/contact.png" alt="">
+                        </span>
+                        <b class="contact-text">온라인 문의</b>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+        <section id="business">
+         
+
+            <!-- parallax -->
+            <div class="parallax-wrap">
+                <img src="/assets/img/business.png" alt="">
+            </div>
+            <div class="p-box">
+                <div class="parallax-tit1">
+                    <div class="tit-wrap">
+                        <h1 class="tit">BUSINESS</h1>
+                        <p class="sub-tit">
+                            리테일 업무에 대한 정확한 이해, 고객중심,통합<br>Platform 제공 역량을 보유하여 고객에게<br><strong>우수한 IT서비스</strong>를
+                            제공합니다.
+                        </p>
+                    </div>
+                    <div class="view-more">
+                        <a href="/solution01">
+                            <span>Read more</span>
+                            <img src="/assets/img/read_more.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- LIST1 TEXT -->
+            <div class="p-box1 visual">
+                <div class="parallax-tit">
+                    <div class="tit-wrap">
+                        <h1 class="tit">ERP</h1>
+                        <p class="sub-tit">
+                            프랜차이저 유통 업무에 대한 모든 프로세스를 지원하는<br>최적의 통합 플랫폼 제공과 고객사의 경쟁력을 극대화하는 통합솔루션
+                        </p>
+                    </div>
+                    <div class="view-more">
+                        <a href="/solution02">
+                            <span>Read more</span>
+                            <img src="/assets/img/read_more.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- LIST1 IMG -->
+            <div class="parallax-img1">
+                <img src="/assets/img/erp.png" alt="">
+            </div>
+            <!-- LIST2 TEXT -->
+            <div class="p-box2 visual">
+                <div class="parallax-tit">
+                    <div class="tit-wrap">
+                        <h1 class="tit">E-COM</h1>
+                        <p class="sub-tit">
+                            상품의 온라인 판매를 위한 스탠다드 프로세스를 지원하며,<br>해당상품의 온라인/오프라인 판매에 대한 사후관리를 구분하는<br>리테일 전용 온라인 판매솔루션
+                        </p>
+                    </div>
+                    <div class="view-more">
+                        <a href="/solution11">
+                            <span>Read more</span>
+                            <img src="/assets/img/read_more.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- LIST2 IMG -->
+            <div class="parallax-img2">
+                <img src="/assets/img/e-com.png" alt="">
+            </div>
+            <!-- LIST3 TEXT -->
+            <div class="p-box3 visual">
+                <div class="parallax-tit">
+                    <div class="tit-wrap">
+                        <h1 class="tit">POS</h1>
+                        <p class="sub-tit">
+                            본사와 리테일매장과의 최적화된 커뮤니케이션,<br>다양한 판촉기능 및 Response time을 보장하는<br>검증된 매장 솔루션
+                        </p>
+                    </div>
+                    <div class="view-more">
+                        <a href="/solution03">
+                            <span>Read more</span>
+                            <img src="/assets/img/read_more.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- LIST3 IMG -->
+            <div class="parallax-img3">
+                <img src="/assets/img/pos.png" alt="">
+            </div>
+            <!-- LIST4 TEXT -->
+            <div class="p-box4 visual">
+                <div class="parallax-tit">
+                    <div class="tit-wrap">
+                        <h1 class="tit">WMS</h1>
+                        <p class="sub-tit">
+                            자동창고 운영모둘과, PDA를 적용한 현장에서<br>실시간 정보처리 및 다양한 Assort 구성과 최단 시간내<br>출고작업을 위한 다양한 작업지시서를
+                            지원하는<br>뛰어난 창고운영관리 솔루션
+                        </p>
+                    </div>
+                    <div class="view-more">
+                        <a href="/solution05">
+                            <span>Read more</span>
+                            <img src="/assets/img/read_more.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- LIST4 IMG -->
+            <div class="parallax-img4">
+                <img src="/assets/img/wms.png" alt="">
+            </div>
+            <!-- LIST5 TEXT -->
+            <div class="p-box5 visual">
+                <div class="parallax-tit">
+                    <div class="tit-wrap">
+                        <h1 class="tit">PROMOTION</h1>
+                        <p class="sub-tit">
+                            고객의 접촉 및 반응 정보를 활용하여 반복구매와<br>충성고객으로 유도할 수 있는 프로모션을 기획,<br>실행, 사후관리를 지원하는 판촉 솔루션
+                        </p>
+                    </div>
+                    <div class="view-more">
+                        <a href="/solution07">
+                            <span>Read more</span>
+                            <img src="/assets/img/read_more.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- LIST5 IMG -->
+            <div class="parallax-img5">
+                <img src="/assets/img/promotion.png" alt="">
+            </div>
+
+
+        </section>
+
+        <section class="m_business">
+            <div class="business_banner">
+                <img class="bg-img" src="/assets/img/m_business.png">
+                <div class="cont">
+                    <h1 class="banner-title">BUSINESS</h1>
+                    <p class="banner-subtitle">
+                        리테일 업무에 대한 정확한 이해, 고객중심, 통합 
+                        Platform 제공 역량을 보유하여 고객에게 
+                        우수한 IT서비스를 제공합니다.
+                    </p>
+                    
+                <a href="#" class="scroll-down">
+                    <span>Scroll<br>Down</span>
+                    <img class="down-icon" src="/assets/img/ico_arrow_down.svg" alt="">
+                </a>
+                </div>
+                
+            </div>
+            <div class="swiper-container mBannerSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card-cont">
+                            <h1 class="card-title">ERP</h1>
+                            <div class="card-subtitle">
+                                <p>
+                                    프랜차이저 유통 업무에 대한 모든 프로세스를 지원하는 최적의 통합 플랫폼 제공과
+                                    고객사의 경쟁력을 극대화하는 통합솔루션
+                                </p>
+                                <div class="view-more"><a href="javascript:void(0);">
+                                    </a><a href="/solution02">
+                                        <span>View more</span>
+                                        <img src="/assets/img/read_more_sm.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="/assets/img/m_erp.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-cont">
+                            <h1 class="card-title">E-COM</h1>
+                            <div class="card-subtitle">
+                                <p>
+                                    상품의 온라인 판매를 위한 스탠다드 프로세스를 지원하며, 해당상품의 온라인/오프라인 판매에 대한 사후관리를 구분하는 리테일 전용 온라인 판매솔루션
+                                </p>
+                                <div class="view-more"><a href="javascript:void(0);">
+                                    </a><a href="/solution02">
+                                        <span>View more</span>
+                                        <img src="/assets/img/read_more_sm.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="/assets/img/m_ecom.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-cont">
+                            <h1 class="card-title">POS</h1>
+                            <div class="card-subtitle">
+                                <p>                           
+                                본사와 리테일매장과의 최적화된 커뮤니케이션, 
+                                다양한 판촉기능 및 Response time을 보장하는 검증된 매장 솔루션
+                                </p>
+                                <div class="view-more"><a href="javascript:void(0);">
+                                    </a><a href="/solution02">
+                                        <span>View more</span>
+                                        <img src="/assets/img/read_more_sm.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="/assets/img/m_pos.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-cont">
+                            <h1 class="card-title">WMS</h1>
+                            <div class="card-subtitle">
+                                <p>                           
+                                    자동창고 운영모듈과, PDA를 적용한 현장에서 
+                                    실시간 정보처리 및 다양한 Assort 구성과 최단 시간내 출고작업을 위한 다양한 작업지시서를 지원하는
+                                    뛰어난 창고운영관리 솔루션                                    
+                                </p>
+                                <div class="view-more"><a href="javascript:void(0);">
+                                    </a><a href="/solution02">
+                                        <span>View more</span>
+                                        <img src="/assets/img/read_more_sm.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="/assets/img/m_wms.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-cont">
+                            <h1 class="card-title">PROMOTION</h1>
+                            <div class="card-subtitle">
+                                <p>                           
+                                    고객의 접촉 및 반응 정보를 활용하여 반복구매와 충성고객으로 유도할 수 있는 프로모션을 기획, 실행, 사후관리를 지원하는 판촉 솔루션                                 
+                                </p>
+                                <div class="view-more"><a href="javascript:void(0);">
+                                    </a><a href="/solution02">
+                                        <span>View more</span>
+                                        <img src="/assets/img/read_more_sm.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="/assets/img/m_promotion.png">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="sc_intro">
+            <div class="mission-tit">
+                <h1>MISSON</h1>
+                <h2>와이제이이노베이션은 풍부한 Retail Solution 개발과 운영경험 및<br>업무 이해력 및 기술력으로 고객에게 무한신뢰를 제공하는<br><strong>Retail
+                Solution</strong> 전문가 조직입니다.</h2>
+            </div>
+            <div class="wrapper">
+                <div class="img_area">
+                    <div class="img01">
+                        <figure class="img_wrap">
+                            <img src="/assets/img/mission01.png" alt="Trust 이미지">
+                            <div class="stroke">
+                                <span>Trust</span>
+                            </div>
+                        </figure>
+                        <div class="txt_wrap">
+                            <p class="txt_01">항상 고객의 입장에서 생각하며,<br><strong>신뢰</strong>를 제공하는 파트너가 되고자 함</p>
+                        </div>
+                    </div>
+                    <div class="img02">
+                        <figure class="img_wrap">
+                            <img src="/assets/img/mission02.png" alt="Experience 이미지">
+                            <div class="stroke">
+                                <span>Experience</span>
+                            </div>
+                        </figure>
+                        <div class="txt_wrap">
+                            <p class="txt_01">실패와 성공 <strong>경험</strong>을 공유하여<br>잘못은 반성하고 잘한 점은 더욱 발전시킴</p>
+                        </div>
+                    </div>
+                    <div class="img03">
+                        <figure class="img_wrap">
+                            <img src="/assets/img/mission03.png"
+                                alt="WinWin 이미지.">
+                            <div class="stroke">
+                                <span>Win-Win</span>
+                            </div>
+                        </figure>
+                        <div class="txt_wrap">
+                            <p class="txt_01">회사와 직원과의 동등한 입장에서<br>서로의 발전을 위해 <strong>상생</strong>관계를 유지</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>     
+        <section class="m_mission">
+            <h1>MISSON</h1>
+            <h2>와이제이이노베이션은 풍부한 Retail Solution 개발과 운영경험 및 업무 이해력 및 기술력으로 고객에게 
+                무한신뢰를 제공하는 <strong>Retail
+             Solution</strong> 전문가 조직입니다.</h2>
+            <div class="img_right">
+                <figure class="img_wrap">
+                    <img src="/assets/img/mission02.png" alt="Experience 이미지">
+                </figure>
+                <div class="txt_wrap">
+                    <h1>Experience</h1>
+                    <p class="txt_01">실패와 성공 <strong>경험</strong>을 공유하여<br>잘못은 반성하고 잘한 점은 더욱 발전시킴</p>
+                </div>
+            </div>
+            <div class="img_left">
+                <figure class="img_wrap">
+                    <img src="/assets/img/mission01.png" alt="Trust 이미지">
+                </figure>
+                <div class="txt_wrap">
+                    <h1>Trust</h1>
+                    <p class="txt_01">항상 고객의 입장에서 생각하며,<br><strong>신뢰</strong>를 제공하는 파트너가 되고자 함</p>
+                </div>
+            </div>
+            <div class="img_right">
+                <figure class="img_wrap">
+                    <img src="/assets/img/mission03.png"
+                        alt="WinWin 이미지.">
+                </figure>
+                <div class="txt_wrap">
+                    <h1>Win-Win</h1>
+                    <p class="txt_01">회사와 직원과의 동등한 입장에서<br>서로의 발전을 위해 <strong>상생</strong>관계를 유지</p>
+                </div>
+            </div>
+          
+        </section>
+        <div id="call">
+            <div class="layout-md">
+                <div class="contact-me">
+                    <div class="contact_left">
+                        <p>궁금한점이 있으신가요?</p>
+                        <p><b>YJ INNOVATION</b>의<br><strong>전문 컨설턴트</strong>에게 문의하세요!</p>
+                    </div>
+                    <div class="contact_right">
+                        <a href="/contact">
+                            <p>문의하기</p>
+                            <img src="/assets/img/read_more_large.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <%- include('footer.ejs') %>
+    <script src="/assets/lib/jquery.min.js"></script>
+    <script src="/assets/lib/aos.js"></script>
+    <script src="/assets/lib/swiper.min.js"></script>
+    <script src="/assets/lib/gsap.min.js"></script>
+    <script src="/assets/lib/ScrollTrigger.min.js"></script>
+    <script src="/assets/lib/ScrollToPlugin.min.js"></script>
+    <script src="/assets/js/swiper.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
